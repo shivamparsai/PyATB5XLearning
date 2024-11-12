@@ -6,3 +6,4 @@ print(result)
 print(max(23,45,67,7,56))
 
 print(min(2,5,7,9))
+
