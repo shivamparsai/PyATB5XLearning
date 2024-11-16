@@ -1,5 +1,3 @@
-from html.parser import commentclose
-
 age = 65
 
 """Multiline commentclose
