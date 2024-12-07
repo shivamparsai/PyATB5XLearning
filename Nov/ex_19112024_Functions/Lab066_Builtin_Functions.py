@@ -1,0 +1,12 @@
+import math
+input()
+int()
+print()
+len()
+float()
+str()
+min()
+max()
+pow()
+str.lower()
+str.upper()
