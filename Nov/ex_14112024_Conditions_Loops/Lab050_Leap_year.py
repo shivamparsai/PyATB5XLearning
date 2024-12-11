@@ -2,8 +2,8 @@
 # by 100 but not by 400
 
 year = int(input("Enter any year\n"))
-r = year % 4
-r1 = year % 100
-r2 = year % 400
 
-if r == 0 and r1 != 0:
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, " is a leap year")
+else:
+    print(year, "is NOT a leap year")

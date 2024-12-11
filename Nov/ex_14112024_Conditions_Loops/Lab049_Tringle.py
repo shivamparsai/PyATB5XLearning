@@ -7,9 +7,12 @@ tringleLength1 = float(input("Enter Triangle side 1 length\n"))
 tringleLength2 = float(input("Enter Triangle side 2 length\n"))
 tringleLength3 = float(input("Enter Triangle side 3 length\n"))
 
-if tringleLength1 == tringleLength2 and tringleLength1 == tringleLength3:
-    print("Triangle is equilateral")
-elif tringleLength1 == tringleLength2 or tringleLength2 == tringleLength3 or tringleLength1 == tringleLength3:
-    print("Triangle is isosceles")
+if tringleLength1 > 0 and tringleLength2 > 0 and tringleLength3 > 0:
+    if tringleLength1 == tringleLength2 == tringleLength3:
+        print("Triangle is equilateral")
+    elif tringleLength1 == tringleLength2 or tringleLength2 == tringleLength3 or tringleLength1 == tringleLength3:
+        print("Triangle is isosceles")
+    else:
+        print("Triangle is scalene")
 else:
-    print("Triangle is scalene")
+    print("not a valid length")
