@@ -1,6 +1,6 @@
 age = 65
 
-"""Multiline commentclose
+"""Multiline comment close
 1.Author - Shivam
 2.Information"""
 

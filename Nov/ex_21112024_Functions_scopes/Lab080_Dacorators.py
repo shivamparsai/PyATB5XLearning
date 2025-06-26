@@ -3,7 +3,7 @@
 
 # Dacorators in Python are very powerful and flexible tool that allows you to modify the behavior of the function
 # or methods without changing their actual code.
-# They are esentially functions that take another function as an argument and extend or alter its behavior
+# They are essentially functions that take another function as an argument and extend or alter its behavior
 
 def addSafty(func):    # this parameter/arg name can be anything name func is recommended or industry standards
     def wrapper():     # wrapper() name can be anything but name wrapper() is recommended or industry standards
