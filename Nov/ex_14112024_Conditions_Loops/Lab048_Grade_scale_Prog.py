@@ -1,4 +1,6 @@
-# Write the prog that calulate and display the letter grade for a given numerical score
+## Important
+
+# Write the prog that calculate and display the letter grade for a given numerical score
 # (A, B, C, D, and F) based on the following grading scale
 
 # A:90-100
@@ -9,7 +11,7 @@
 
 score = int(input("Enter your score\n"))
 
-if score >= 90 and score <= 100:
+if score >= 90 and score <= 100:    #90 <= score <= 100:
     print("Your Grade is A")
 elif score >= 80 and score <= 89:
     print("Your Grade is B")

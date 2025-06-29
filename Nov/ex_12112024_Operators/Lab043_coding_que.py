@@ -1,10 +1,12 @@
+## Important
+
 # write the prog to calculate the area of a circle given its radius using the formula
 # are = pi*r^2, pi=3.14
 
 # Logic building formula
 
 # Step 1
-# figur out the i/p and o/p
+# figure out the i/p and o/p
 # i/p - r - data type - float
 # pi = 3.14
 # power - pow or **, anyone
@@ -22,11 +24,11 @@ area = 3.14345567789709 * (radius ** 2)
 # or
 # area = 3.14*pow(radius,2)
 
-print("are of the circle is ", area)
+print("area of the circle is ", area)
 # or
 # print(f"Area of the circle is {area}")
 
-# Note - f called formatting, we can spcify the decimal value, for ex pi=3.14566879870
+# Note - f called formatting, we can specify the decimal value, for ex pi=3.14566879870
 
 print(f"area of the circle is (area) {area:.2f}")
 
