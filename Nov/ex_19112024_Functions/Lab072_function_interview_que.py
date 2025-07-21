@@ -5,9 +5,9 @@ def sumOfThreeNum(num1 = 100, num2 = 200, num3 = 300):
     r = num1 + num2 + num3
     print("Sum of ", num1, num2, "and ", num3, " is ", r)
 
-# a = float(input("Enter number 1"))
-# b = float(input("Enter number2"))
-# c = float(input("Enter number3"))
+a = float(input("Enter number 1"))
+b = float(input("Enter number2"))
+c = float(input("Enter number3"))
 
 sumOfThreeNum()
 sumOfThreeNum(2,3,4)

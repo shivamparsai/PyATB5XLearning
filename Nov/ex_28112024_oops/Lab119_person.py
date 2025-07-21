@@ -1,6 +1,6 @@
 # take input and create a class in python
 
-class person:
+class Person:
 
     def __init__(self):
         self.name = input("enter your name\n")
@@ -19,6 +19,6 @@ class person:
               f"phone is {self.phone}\n",
               f"occupation is {self.occupation}")
 
-person1 = person()
+person1 = Person()
 
 person1.yourDetail()

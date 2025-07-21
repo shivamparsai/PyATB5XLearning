@@ -1,3 +1,5 @@
+## Important
+
 # outer function variable can be used by the inner functions
 
 def outerFunction():

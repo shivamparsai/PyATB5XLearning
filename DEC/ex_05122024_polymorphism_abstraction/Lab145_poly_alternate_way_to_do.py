@@ -1,3 +1,5 @@
+## Important
+
 class Calc:
     def sum(self, *args):       # *args - multiple arguments -  can be of different data types
         for a in args:

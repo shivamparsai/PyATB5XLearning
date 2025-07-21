@@ -16,7 +16,5 @@ class Dog:
     def bark(self, height, age):
         print(f"Dog with {height} and {age} height is barking")
 
-
-
 dog = Dog()
 dog.bark()

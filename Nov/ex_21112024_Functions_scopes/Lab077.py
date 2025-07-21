@@ -9,4 +9,6 @@ def strange():
     print(public_toilet)
     print(private_toilet)
 
+home()
+strange()
 # Note: Local variables have the more preference than the public variables

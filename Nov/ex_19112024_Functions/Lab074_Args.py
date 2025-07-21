@@ -1,3 +1,5 @@
+## Important
+
 def mul_args(*args):                # *args  - gives list
     for i in args:
         print(i)

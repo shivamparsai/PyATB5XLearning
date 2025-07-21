@@ -6,7 +6,7 @@ class B:
     def method(self):
         return "Method B"
 
-class C(B,A):
+class C (B,A):
     pass
 
 c = C()

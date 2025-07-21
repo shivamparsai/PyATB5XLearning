@@ -21,5 +21,8 @@ password1 = os.getenv("password")
 
 print(email1,password1)
 
+email1 = input("what is your email\n")
+password1 = input("what is your password\n")
+
 lp = LoginPage(email1, password1)
 lp.login_confirm()

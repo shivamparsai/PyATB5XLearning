@@ -1,4 +1,6 @@
-#Lambda function or expression
+## Important
+
+ #Lambda function or expression
 # A lambda is an anonymous function that returns some form of data
 # Lambda expression always returns a function
 # Syntax:
