@@ -1,7 +1,8 @@
+
 # a = int(input("enter num1"))    # value error can come
 # b = int(input("enter num2"))    # value error can come
 #
-# c = a/b # zeroiviionerror can come
+# c = a/b # zerodivisionerror can come
 #
 # print(c)
 
@@ -15,7 +16,7 @@ try:
     a = int(input("enter num1"))    # value error can come
     b = int(input("enter num2"))    # value error can come
 
-    c = a/b # zeroiviionerror can come
+    c = a/b # zerodivisionerror can come
 
     print(c)
 

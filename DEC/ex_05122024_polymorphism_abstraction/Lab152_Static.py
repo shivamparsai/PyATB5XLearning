@@ -1,3 +1,4 @@
+
 # static method, variables - that belongs to class rather than an instance
 # static variables - class level variables shared by all instances of the class
 # Defined within the class but outside any method

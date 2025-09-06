@@ -1,3 +1,4 @@
+# Important
 # try:
 #     num1 = int(input("enter num 1\n"))
 #     num2 = int(input("enter num 2\n"))
@@ -16,9 +17,11 @@ try:
 
 except ValueError as e:
     print(e)
+    # print("provide only digits")
 
 except ZeroDivisionError as e:
     print(e)
+    # print("not divisible by 0, get lost")
 
 else:   # if there is no error in the try block then it will execute the else block code
     # otherwise it will catch the error in the except block
