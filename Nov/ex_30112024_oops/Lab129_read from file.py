@@ -1,5 +1,21 @@
-# web automation  - selenium
-# page - we are going to automate
+# ### To Load the Variables form the env
+# - Install the `pip install python-dotenv`
+# - Write the call method at the top.
+# `from dotenv import load_dotenv
+# import os`
+# - call this = `load_dotenv()`
+# - Create .env file with data
+#     - `EMAIL="<>"`
+#     - `PASSWORD="<>"`
+#
+# - Now you use it
+#     - `email = os.getenv("EMAIL")`
+#     - `password = os.getenv("PASSWORD")`
+#below data to use in file .env file
+#EMAIL = "admin"
+#PASSWORD = "pass123"
+
+
 
 from dotenv import load_dotenv
 import os
@@ -10,7 +26,7 @@ class LoginPage:
         self.password = password
 
     def login_confirm(self):
-        if self.email == "shivam@gmail.com" and self.password == "pass123":
+        if self.email == email1 and self.password == password1:
             print("login success")
         else:
             print("login failed")
