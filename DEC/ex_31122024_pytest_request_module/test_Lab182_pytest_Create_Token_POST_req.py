@@ -24,5 +24,6 @@ def test_create_token():
     assert resposeData.status_code == 200
 
     responseDataJson = resposeData.json()
+    print(resposeData.text)
     token = responseDataJson["token"]
     print(token)
